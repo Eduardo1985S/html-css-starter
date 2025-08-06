@@ -1,0 +1,27 @@
+/* Reset básico */
+* {
+  margin: 0; /* Remove margens padrão de todos os elementos */
+  padding: 0; /* Remove preenchimento padrão de todos os elementos */
+  box-sizing: border-box; /* Faz com que padding e border sejam incluídos na largura/altura total dos elementos */
+}
+
+body {
+  font-family: Arial, sans-serif; /* Define a fonte padrão como Arial, com fallback para sans-serif */
+  background-color: #f5f5f5; /* Define a cor de fundo do corpo da página como um cinza claro */
+  color: #333; /* Define a cor do texto como um cinza escuro */
+}
+
+/* Header */
+.header {
+  height: 150px; /* Define a altura do cabeçalho como 150 pixels */
+  background-color: #fff; /* Define a cor de fundo do cabeçalho como branco */
+  text-align: center; /* Centraliza o texto dentro do cabeçalho */
+  position: relative; /* Define o posicionamento como relativo para permitir posicionamento absoluto de elementos filhos */
+}
+
+.header-content {
+  position: absolute; /* Posiciona o elemento de forma absoluta em relação ao elemento pai (.header) */
+  top: 50%; /* Posiciona o topo do elemento a 50% da altura do pai */
+  left: 50%; /* Posiciona a esquerda do elemento a 50% da largura do pai */
+  transform: translate(-50%, -50%); /* Move o elemento 50% do seu tamanho para esquerda e para cima, centralizando-o */
+}
