@@ -1,13 +1,12 @@
 # HTML & CSS Starter Template
 
 ## Descrição
-Este repositório contém um template inicial para aulas de HTML e CSS, projetado para ajudar iniciantes a aprender e praticar os fundamentos de desenvolvimento web. Ele inclui uma estrutura básica de arquivos para começar a construir páginas web simples, com exemplos práticos e comentários explicativos.
+Este repositório contém um template inicial para aulas de HTML e CSS, projetado para ajudar iniciaalunos a aprender e praticar os fundamentos de desenvolvimento web. Ele inclui uma estrutura básica de arquivos para começar a construir páginas web simples, com exemplos práticos e comentários explicativos.
 
 ## Objetivo
 O objetivo deste template é fornecer uma base sólida para:
 - Compreender a estrutura de um projeto web.
 - Praticar a escrita de código HTML e CSS.
-- Explorar conceitos como layout, estilização e responsividade.
 
 ## Estrutura do Projeto
 ```
@@ -15,8 +14,8 @@ html-css-starter/
 ├── index.html
 ├── css/
 │   └── style.css
-├── assets/
-│   └── (imagens, ícones ou outros recursos)
+├── assets/ (imagens, ícones ou outros recursos)
+│   └── minha-imagem.png
 └── README.md
 ```
 
@@ -50,9 +49,6 @@ Contribuições são bem-vindas! Se você tiver sugestões de melhorias ou novos
 3. Commit suas alterações (`git commit -m "Adiciona nova funcionalidade"`).
 4. Envie para o repositório remoto (`git push origin minha-modificacao`).
 5. Abra um Pull Request.
-
-## Licença
-Este projeto é distribuído sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
 
 ## Contato
 Para dúvidas ou sugestões, entre em contato pelo GitHub: [Eduardo1985S](https://github.com/Eduardo1985S).
